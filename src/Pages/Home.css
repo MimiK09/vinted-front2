@@ -1,0 +1,108 @@
+/************/
+/** HERO + HOME **/
+/************/
+
+
+
+/************/
+/** MAIN HERO **/
+/************/
+
+.hero-banner-container {
+	overflow: hidden;
+	height: 400px;
+	position: relative;
+}
+
+.hero-banner-container img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.hero-banner-container .cadre {
+	position: absolute;
+	background-color: #ffffff;
+	left: 30px;
+	top: 10%;
+	height: 80%;
+	max-width: 384px;
+	border-radius: 2px;
+}
+
+.hero-banner-container .cadre > div {
+	height: 90%;
+	width: 90%;
+	margin: 10px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.hero-banner-container .cadre p {
+	font-size: 2.4rem;
+}
+
+.hero-banner-container .cadre button {
+	font-size: 1rem;
+}
+
+
+/************/
+/** MAIN HOME **/
+/************/
+
+.container-home {
+	margin: 30px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 8px;
+}
+
+.tuile {
+	width: 15%;
+	height: 400px;
+}
+
+.container-image-tuile {
+	overflow: hidden;
+	width: 100%;
+	height: 250px;
+}
+
+.container-image-tuile img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.title-tuile {
+	height: 10%;
+	display: flex;
+	align-items: center;
+}
+.title-tuile p {
+	font-size: 1rem;
+	color: black;
+}
+
+.tuile a {
+	text-decoration-line: none;
+}
+
+.details-tuile {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.details-tuile p {
+	font-size: 0.8rem;
+	color: grey;
+}
+
+.details-tuile .price {
+	font-size: 0.9rem;
+	color: black;
+}

@@ -1,0 +1,76 @@
+/************/
+/** HEADER **/
+/************/
+
+.container-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.inscription-connexion {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 10px;
+}
+
+header .inscription-connexion button {
+	color: #017580;
+	background-color: #ffffff;
+	border: 1px solid #017580;
+	border-radius: 5px;
+	padding: 10px 20px;
+}
+header .searchBar {
+	display: flex;
+	align-items: center;
+	height: 30px;
+	min-width: 300px;
+	background-color: rgb(228, 228, 228);
+	border-radius: 5px;
+}
+
+header .searchBar input {
+	background-color: rgb(228, 228, 228);
+	border: none;
+}
+
+header .icon {
+	font-size: 20px;
+	background-color: rgb(228, 228, 228);
+	color: rgb(146, 146, 146);
+	margin: 0px 10px;
+}
+
+header form {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin: 10px 0;
+}
+
+header form .filter-sort-prices {
+	gap: 30px;
+}
+
+header form .sort-by {
+	display: flex;
+	justify-content: space-between;
+}
+
+header form p {
+	font-size: 0.8rem;
+}
+header form .sort-by > div {
+	display: flex;
+	align-items: center;
+}
+
+header form .filters {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+

@@ -1,0 +1,70 @@
+/************/
+/** MAIN OFFER **/
+/************/
+
+
+.offer-container {
+	padding: 100px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	background-color: lightgrey;
+	gap: 20px;
+}
+
+.offer-container p {
+	font-size: 0.9rem;
+}
+
+.offer-container .price,
+.offer-container .name {
+	font-size: 1.1rem;
+	padding: 10px 0;
+}
+
+.offer-container > div {
+	width: 400px;
+	height: 500px;
+	overflow: hidden;
+}
+
+.offer-description-container {
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.offer-description {
+	margin: 20px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	gap: 20px;
+	height: 100%;
+}
+
+.offer-container-image img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.offer-description-details {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.offer-description-details > div {
+	display: flex;
+}
+
+.offer-description-details > div > :nth-child(odd) {
+	width: 140px;
+	color: grey;
+}
+
+.separator {
+	border: 1px solid grey;
+}
